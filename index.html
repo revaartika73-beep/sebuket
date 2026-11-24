@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sebuket – Satu Buket, Satu Cerita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Teks berjalan: isi dibuat ulang oleh script.js (MARQUEE_TEXT), ini cadangan bila JS mati -->
+<div class="marquee" aria-label="Sebuket ~ satu buket satu cerita"><div class="mq-track"><div class="mq-group"><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span></div><div class="mq-group" aria-hidden="true"><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span><span class="mq-item">Sebuket ~ satu buket satu cerita</span><span class="mq-sep" aria-hidden="true">✿</span></div></div></div>
+
+<header id="top">
+  <a href="#/home" class="logo" aria-label="Sebuket – Home">Sebuket</a>
+  <nav id="nav">
+    <a href="#/home" data-nav="home">Home</a>
+    <div class="has-sub"><a href="#/katalog" data-nav="katalog">Katalog</a><div class="sub" id="catSub"></div></div>
+    <a href="#/faq" data-nav="faq">FAQ</a>
+  </nav>
+  <div class="hdr-actions">
+    <a href="#/pesanan" data-nav="pesanan" data-tip="Cek Pesanan" aria-label="Cek Pesanan"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14"/><path d="M16.5 9.4 7.5 4.21"/><path d="m3.29 7 8.7 5 8.71-5"/><path d="M12 22V12"/><circle cx="18.5" cy="15.5" r="2.5"/><path d="M20.27 17.27 22 19"/></svg></a>
+    <a href="#/keranjang" data-nav="keranjang" aria-label="Keranjang"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l1 12H5L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><b id="badge" hidden>0</b></a>
+    <button id="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+
+<main id="app"></main>
+<div id="toast" role="status"></div>
+<a id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chat WhatsApp"><svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<script src="script.js"></script>
+</body>
+</html>

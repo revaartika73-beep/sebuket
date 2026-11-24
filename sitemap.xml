@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://sebuket.vercel.app/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://sebuket.vercel.app/video/hero-poster.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/kategori-fresh.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/kategori-artificial.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/kategori-money.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/kategori-snack.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/f1-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/f2-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/f3-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/a1-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/a2-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/a3-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/m1-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/m2-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/m3-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/s1-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/s2-1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://sebuket.vercel.app/foto/s3-1.jpeg</image:loc></image:image>
+  </url>
+</urlset>

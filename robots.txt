@@ -1,0 +1,18 @@
+# robots.txt - Sebuket
+User-agent: *
+Allow: /
+
+# Crawler AI (boleh diakses; ubah ke Disallow bila tidak ingin dipakai)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://sebuket.vercel.app/sitemap.xml

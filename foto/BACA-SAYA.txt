@@ -1,0 +1,57 @@
+CARA MEMASUKKAN FOTO PRODUK
+===========================
+Taruh foto di folder ini (foto/) dengan nama persis seperti di bawah.
+Setiap produk butuh 3 foto: -1 (foto utama), -2, dan -3.
+Format bawaan: .jpg  (jika memakai .png atau .webp, ubah FOTO_EXT di script.js)
+Ukuran disarankan persegi, sekitar 800 x 800 px.
+Foto yang belum ada otomatis diganti ilustrasi bunga.
+
+DAFTAR NAMA FILE
+----------------
+Rose Blush           -> f1-1.jpg, f1-2.jpg, f1-3.jpg
+Tulip Morning        -> f2-1.jpg, f2-2.jpg, f2-3.jpg
+Peony Dream          -> f3-1.jpg, f3-2.jpg, f3-3.jpg
+Everlasting Daisy    -> a1-1.jpg, a1-2.jpg, a1-3.jpg
+Pink Satin Rose      -> a2-1.jpg, a2-2.jpg, a2-3.jpg
+Lavender Whisper     -> a3-1.jpg, a3-2.jpg, a3-3.jpg
+Golden Wish          -> m1-1.jpg, m1-2.jpg, m1-3.jpg
+Money Bloom          -> m2-1.jpg, m2-2.jpg, m2-3.jpg
+Mini Cash Rose       -> m3-1.jpg, m3-2.jpg, m3-3.jpg
+Sweet Crunch         -> s1-1.jpg, s1-2.jpg, s1-3.jpg
+Choco Garden         -> s2-1.jpg, s2-2.jpg, s2-3.jpg
+Munch Meadow         -> s3-1.jpg, s3-2.jpg, s3-3.jpg
+
+PRODUK BARU
+-----------
+Salin satu baris P(...) di script.js, beri ID baru yang unik (misal f4),
+lalu beri nama foto f4-1.jpg, f4-2.jpg, f4-3.jpg.
+
+NAMA FILE KHUSUS (opsional)
+---------------------------
+Di baris produk, tambahkan array di ujung setelah deskripsi:
+  ['foto/nama-bebas-1.jpg', 'foto/nama-bebas-2.jpg', 'foto/nama-bebas-3.jpg']
+
+FOTO LAIN (header, kategori, review)
+------------------------------------
+Header / hero Home    -> hero.jpeg
+Pilihan kategori      -> kategori-fresh.jpeg
+                         kategori-artificial.jpeg
+                         kategori-money.jpeg
+                         kategori-snack.jpeg
+Review pelanggan      -> review-1.jpeg, review-2.jpeg, review-3.jpeg, review-4.jpeg
+Teks dan nama review diubah di script.js pada bagian REVIEWS.
+Format .jpg, .png, dan .webp juga otomatis dikenali.
+
+LATAR KARTU UCAPAN (JPEG buatanmu)
+----------------------------------
+Taruh 3 foto latar kartu di folder ini dengan nama persis:
+  kartu-1.jpeg   -> pilihan "Kartu 1"
+  kartu-2.jpeg   -> pilihan "Kartu 2"
+  kartu-3.jpeg   -> pilihan "Kartu 3"
+Ukuran kartu tetap 10 x 7 cm (rasio 10 : 7), mis. 1181 x 827 px (300 dpi). Pelanggan tidak memilih ukuran.
+Jika file belum ada, kartu tampil dengan latar pink polos.
+Di atas latar, website otomatis menampilkan 2 teks box (diisi pelanggan, boleh dihapus SATU saja)
+dan tulisan "Sebuket" (hanya bisa digeser, tidak bisa dihapus). Beri ruang kosong di desainmu untuk teks.
+Pilihan kartu total ada 4: Tanpa kartu + Kartu 1-3. Untuk menambah/mengubah nama kartu, edit CARD_TEMPLATES di script.js.
+Catatan: tombol "Unduh Kartu" dan gambar kartu di bukti pesanan butuh website dibuka lewat hosting/server
+(bukan klik dua kali file index.html). Di file lokal, kartu tetap tampil, hanya tidak bisa diunduh sebagai gambar.

@@ -1,0 +1,45 @@
+# Sebuket
+
+> Sebuket (Satu Buket, Satu Cerita) adalah toko buket bunga online: bunga fresh, bunga artificial, buket uang, dan buket snack. Website berupa katalog dan simulasi pemesanan (belum ada transaksi sungguhan).
+
+Website ini adalah single-page app dengan navigasi berbasis hash (#/), sehingga seluruh konten berada di satu URL utama: https://sebuket.vercel.app/
+
+## Halaman utama
+- [Home](https://sebuket.vercel.app/#/home): Pengantar toko, pilihan kategori, langkah pemesanan, review pelanggan
+- [Katalog](https://sebuket.vercel.app/#/katalog): Semua produk dengan pencarian, filter, dan urutan
+- [FAQ](https://sebuket.vercel.app/#/faq): Pertanyaan umum soal pemesanan, pembayaran, pengiriman, estimasi, voucher
+- [Cek Pesanan](https://sebuket.vercel.app/#/pesanan): Riwayat pesanan (disimpan di browser pelanggan)
+
+## Kategori dan produk (harga dalam Rupiah, per ukuran)
+### Fresh Flowers (bunga segar, dirangkai di hari yang sama)
+- Rose Blush: mawar pink, S 120.000 / M 180.000 / L 260.000
+- Tulip Morning: tulip kuning-putih, S 95.000 / M 150.000
+- Peony Dream: peony pink-putih, M 220.000 / L 320.000
+
+### Artificial Flowers (bunga awet)
+- Everlasting Daisy: S 45.000 / M 85.000
+- Pink Satin Rose: S 65.000 / M 110.000
+- Lavender Whisper: S 40.000 / M 75.000
+
+### Money Bouquet (buket uang)
+- Golden Wish: S 150.000 / M 300.000
+- Money Bloom: M 250.000 / L 500.000
+- Mini Cash Rose: S 100.000
+
+### Snack Bouquet (camilan dan cokelat)
+- Sweet Crunch: S 48.000 / M 90.000 / L 140.000
+- Choco Garden: S 55.000 / M 105.000
+- Munch Meadow: M 95.000 / L 150.000
+
+## Informasi pemesanan
+- Pilihan ukuran, jumlah, dan kartu ucapan gratis (latar kartu bisa dipilih, teks bisa diatur sendiri)
+- Pengambilan: Ambil Sendiri (Rp0) atau Pengiriman (Rp15.000), jam dipilih pelanggan
+- Pembayaran: transfer bank (BCA, BNI, Mandiri), QRIS, tunai saat pengambilan (di website ini masih simulasi)
+- Estimasi pengerjaan tertera di halaman tiap produk (sekitar 1 sampai 3 hari)
+
+## Kontak
+- Instagram: https://www.instagram.com/sebuket.florist
+- Lokasi: https://maps.app.goo.gl/iNXADcZZ51TuUvRU9
+
+## Optional
+- [Sitemap](https://sebuket.vercel.app/sitemap.xml)
